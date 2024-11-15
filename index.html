@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>FlavorFusion - Rezept-App Landing Page</title>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    <style>
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+            font-family: 'Poppins', sans-serif;
+        }
+
+        body {
+            background-color: #f8f9fa;
+            color: #333;
+            line-height: 1.6;
+        }
+
+        header {
+            background: linear-gradient(90deg, #ff7e5f, #feb47b);
+            color: white;
+            padding: 2rem 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+        section {
+            padding: 3rem 1rem;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        section h2 {
+            text-align: center;
+            margin-bottom: 2rem;
+            font-size: 2.5rem;
+            color: #ff7e5f;
+        }
+
+        .hero {
+            text-align: center;
+        }
+
+        .hero p {
+            font-size: 1.2rem;
+            margin: 1.5rem 0;
+        }
+
+        .btn-download {
+            background-color: #ff7e5f;
+            color: white;
+            padding: 0.8rem 2rem;
+            border: none;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+        }
+
+        .btn-download:hover {
+            background-color: #feb47b;
+        }
+
+        .project-overview {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .project-overview div {
+            flex: 1;
+            margin: 1rem;
+            padding: 1rem;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+        }
+
+        .project-overview div h3 {
+            font-size: 1.5rem;
+            color: #333;
+        }
+
+        .kitchen-section {
+            margin-top: 4rem;
+            text-align: center;
+        }
+
+        .kitchen-section img {
+            width: 100%;
+            border-radius: 15px;
+            margin: 1rem 0;
+        }
+
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 1.5rem 0;
+            margin-top: 4rem;
+        }
+
+        footer p {
+            margin: 0.5rem 0;
+        }
+
+        footer a {
+            color: #ff7e5f;
+            text-decoration: none;
+        }
+
+        footer a:hover {
+            text-decoration: underline;
+        }
+
+        @media (max-width: 768px) {
+            .project-overview {
+                flex-direction: column;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>FlavorFusion</h1>
+        <p>Entdecke eine Welt voller kulinarischer Vielfalt</p>
+    </header>
+
+    <section class="hero">
+        <h2>UX/UI Case Study: FlavorFusion Landing Page</h2>
+        <p>Eine interaktive, kulturell vielseitige Landing Page, die Nutzer inspiriert, die Rezept-App FlavorFusion zu
+            entdecken und herunterzuladen.</p>
+        <button class="btn-download">App herunterladen</button>
+    </section>
+
+    <section>
+        <h2>Projektüberblick</h2>
+        <div class="project-overview">
+            <div>
+                <h3>Produktbeschreibung</h3>
+                <p>FlavorFusion ist eine Rezept-App, die Nutzern hilft, Weltküchen zu erkunden und personalisierte Empfehlungen zu erhalten.</p>
+            </div>
+            <div>
+                <h3>Zielgruppe</h3>
+                <p>Kochbegeisterte, die neue Rezepte aus verschiedenen Kulturen ausprobieren und ihre Kochfähigkeiten erweitern möchten.</p>
+            </div>
+            <div>
+                <h3>Tools & Technologien</h3>
+                <p>ChatGPT, Figma, FigJam, Notion, Microsoft CoPilot, Google Gemini</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="kitchen-section">
+        <h2>Weltküchen</h2>
+        <p>Jede Weltküche erhält eine eigene visuelle Sprache und Farbpalette, inspiriert von typischen Gerichten und Zutaten.</p>
+        <img src="background1.png" alt="Mediterrane Küche">
+        <img src="background2.png" alt="Asiatische Küche">
+        <img src="background3.png" alt="Lateinamerikanische Küche">
+        <img src="background4.png" alt="Nordamerikanische Küche">
+        <img src="background5.png" alt="Afrikanische Küche">
+        <img src="background6.png" alt="Nordeuropäische Küche">
+        <img src="background7.png" alt="Nahöstliche Küche">
+    </section>
+
+    <footer>
+        <p>&copy; 2024 FlavorFusion. All rights reserved.</p>
+        <p><a href="https://your-figma-prototype-link.com">Interaktiver Prototyp</a>
